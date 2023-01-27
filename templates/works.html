@@ -1,0 +1,10 @@
+{% extends "layout.html" %} {% block header %}
+<h1>{% block title %}Works{% endblock %}</h1>
+{% endblock %} {% block content %}
+<h1>My Works</h1>
+<ul>
+	{% for work in works %}
+	<li>{{ work }}</li>
+	{% endfor %}
+</ul>
+{% endblock %}
