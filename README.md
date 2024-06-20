@@ -1,3 +1,3 @@
-# My First Project with Flask
+# My First Flask App
 
-This is my first use of Flask. I just started with a simple Flask application.
+How to test Flask in a minimal application
